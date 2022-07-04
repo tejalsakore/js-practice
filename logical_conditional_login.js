@@ -8,11 +8,11 @@ email  = true;
 
 if(google||fb||email)
 {
-    console.log("Login Successfull 🏆!, You can access course now 👍");
+    console.log("Login Successful 🏆!, You can access course now 👍");
 }
 else
 {
     console.log("Sorry you can't access the course 👎,Please login first🙏");
 }
 
-// Login Successfull 🏆!, You can access course now 👍
+// Login Successful 🏆!, You can access course now 👍
