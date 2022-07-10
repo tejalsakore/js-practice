@@ -12,8 +12,8 @@ function sayMon()
 {
  var month= "june"; // local or private variable
  console.log(month); // in local scope -> june
- say();
- function say()
+ sayMon2();
+ function sayMon2()
  {
     console.log(month);// in local scope -> june
  };
