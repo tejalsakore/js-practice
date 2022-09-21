@@ -20,7 +20,8 @@ Tejal.getInfo.bind(Karan)();
 //or
 var karanInfo = Tejal.getInfo.bind(Karan);
 karanInfo();
-
+//or
+Tejal.getInfo.call(Karan);
 
 // First name is Tejal
 // Last name is Sakore
@@ -34,3 +35,6 @@ karanInfo();
 // Last name is DK
 // Age is 27
          
+// First name is Karan
+// Last name is DK
+// Age is 27
